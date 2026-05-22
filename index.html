@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ronjit Ray | Portfolio</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .glass {
+      backdrop-filter: blur(12px);
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+  </style>
+</head>
+
+<body class="bg-black text-white transition duration-500" id="body">
+
+     <!-- Navbar -->
+  <nav class="fixed top-0 w-full z-50 glass">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+      <h1 class="text-3xl font-bold text-red-400">
+        Ronjit Ray
+      </h1>
+
+      <div class="flex items-center gap-6">
+
+        <ul class="hidden md:flex gap-6 font-medium">
+          <li><a href="#home" class="hover:text-cyan-400">Home</a></li>
+          <li><a href="#about" class="hover:text-cyan-400">About</a></li>
+          <li><a href="#skills" class="hover:text-cyan-400">Skills</a></li>
+          <li><a href="#projects" class="hover:text-cyan-400">Projects</a></li>
+          <li><a href="#contact" class="hover:text-cyan-400">Contact</a></li>
+        </ul>
+
+        <button id="themeToggle"
+          class="bg-cyan-400 text-black px-4 py-2 rounded-full font-semibold hover:scale-105 transition">
+          Dark Mode
+        </button>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="min-h-screen flex items-center justify-center px-6 text-center">
+
+    <div>
+
+      <img
+        src="images/profile.jpg" alt="profile images"
+        class="w-40 h-40 rounded-full mx-auto border-4 border-cyan-400 shadow-2xl mb-8"
+      />
+
+      <h2 class="text-5xl md:text-7xl font-bold leading-tight mb-6">
+        Hi, I'm
+        <span class="text-cyan-400">Ronjit Ray</span>
+      </h2>
+
+      <p class="text-xl md:text-2xl text-gray-300 mb-6">
+        Full stack Web Developer
+      </p>
+
+      <p class="max-w-2xl mx-auto text-gray-400 leading-8 mb-8">
+        I create modern, responsive and user-friendly websites using
+        HTML, Tailwind CSS, PHP and JavaScript.
+      </p>
+
+      <div class="flex gap-4 justify-center flex-wrap">
+
+        <a href="#projects"
+          class="bg-cyan-400 text-black px-8 py-3 rounded-full font-bold hover:scale-105 transition">
+          View Projects
+        </a>
+
+        <a href="#contact"
+          class="border border-cyan-400 text-cyan-400 px-8 py-3 rounded-full font-bold hover:bg-cyan-400 hover:text-black transition">
+          Contact Me
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-24 px-6 bg-gray-950">
+
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+
+      <div>
+        <img
+          src="images/profile2.jpg" alt="profile2 image"
+          class="rounded-3xl shadow-2xl"
+        />
+      </div>
+
+      <div>
+        <h2 class="text-5xl font-bold text-cyan-400 mb-6">
+          About Me
+        </h2>
+
+        <p class="text-gray-300 leading-8 text-lg mb-6">
+          I am passionate about building beautiful and modern web applications.
+          I love creating responsive user interfaces and interactive websites.
+        </p>
+
+        <p class="text-gray-400 leading-8">
+          Currently learning advanced JavaScript, PHP and backend technologies
+          to become a full stack developer.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-24 px-6">
+
+    <div class="max-w-6xl mx-auto text-center">
+
+      <h2 class="text-5xl font-bold text-cyan-400 mb-16">
+        Skills
+      </h2>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+
+        <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition">
+          <h3 class="text-2xl font-bold">HTML</h3>
+        </div>
+
+        <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition">
+          <h3 class="text-2xl font-bold">CSS</h3>
+        </div>
+
+        <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition">
+          <h3 class="text-2xl font-bold">Tailwind</h3>
+        </div>
+
+        <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition">
+          <h3 class="text-2xl font-bold">React</h3>
+        </div>
+        
+        <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition">
+          <h3 class="text-2xl font-bold">Python</h3>
+        </div>
+
+        <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition">
+          <h3 class="text-2xl font-bold">PHP</h3>
+        </div>
+
+        <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition">
+          <h3 class="text-2xl font-bold">JavaScript</h3>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+              Live Demo
+            </button>
+          </div>
+
+        </div>
+
+        <div class="glass rounded-3xl overflow-hidden hover:scale-105 transition duration-300">
+
+          <img
+            src="images/agriculture.jpg" alt="agriculture image"
+            class="h-60 w-full object-cover"
+          />
+
+          <div class="p-8">
+            <h3 class="text-3xl font-bold mb-4">
+              AgricultureHub
+            </h3>
+
+            <p class="text-gray-400 leading-7 mb-6">
+              Modern AgricultureHub using JavaScript.
+            </p>
+
+            <button class="bg-cyan-400 text-black px-6 py-3 rounded-full font-bold hover:scale-105 transition">
+              Live Demo
+            </button>
+          </div>
+
+        </div>
+
+        <div class="glass rounded-3xl overflow-hidden hover:scale-105 transition duration-300">
+
+          <img
+            src="images/to do.jpg" alt="apps code image"
+            class="h-60 w-full object-cover"
+          />
+
+          <div class="p-8">
+            <h3 class="text-3xl font-bold mb-4">
+              To-Do App
+            </h3>
+
+            <p class="text-gray-400 leading-7 mb-6">
+              To-Do App using JavaScript and PHP.
+            </p>
+
+            <button class="bg-cyan-400 text-black px-6 py-3 rounded-full font-bold hover:scale-105 transition">
+              Live Demo
+            </button>
+          </div>
+
+           <div class="glass rounded-3xl overflow-hidden hover:scale-105 transition duration-300">
+
+          <img
+            src="images/library.jpg" alt="Library image"
+            class="h-60 w-full object-cover"
+          />
+
+          <div class="p-8">
+            <h3 class="text-3xl font-bold mb-4">
+              Library Management Project
+            </h3>
+
+            <p class="text-gray-400 leading-7 mb-6">
+              Modern Library management Project using JavaScript.
+            </p>
+
+            <button class="bg-cyan-400 text-black px-6 py-3 rounded-full font-bold hover:scale-105 transition">
+              Live Demo
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-24 px-6">
+
+    <div class="max-w-4xl mx-auto text-center">
+
+      <h2 class="text-5xl font-bold text-cyan-400 mb-8">
+        Contact Me
+      </h2>
+
+      <p class="text-gray-400 mb-10 text-lg">
+        Let's build something amazing together.
+      </p>
+
+      <div class="flex justify-center gap-6 flex-wrap">
+
+        <a href="https://www.facebook.com/itz.ok.276568"
+          class="bg-cyan-400 text-black px-8 py-3 rounded-full font-bold hover:scale-105 transition">
+          Facebook
+        </a>
+
+        <a href="#"
+          class="bg-cyan-400 text-black px-8 py-3 rounded-full font-bold hover:scale-105 transition">
+          GitHub
+        </a>
+
+        <a href="#"
+          class="bg-cyan-400 text-black px-8 py-3 rounded-full font-bold hover:scale-105 transition">
+          LinkedIn
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 text-center text-gray-500 border-t border-gray-800">
+    © 2026 Ronjit Ray | All Rights Reserved
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+
+    const themeToggle = document.getElementById('themeToggle');
+    const body = document.getElementById('body');
+
+    let darkMode = true;
+
+    themeToggle.addEventListener('click', () => {
+
+      if (darkMode) {
+        body.classList.remove('bg-black', 'text-white');
+        body.classList.add('bg-white', 'text-black');
+
+        themeToggle.innerText = 'Light Mode';
+      }
+
+      else {
+        body.classList.remove('bg-white', 'text-black');
+        body.classList.add('bg-black', 'text-white');
+
+        themeToggle.innerText = 'Dark Mode';
+      }
+
+      darkMode = !darkMode;
+    });
+
+  </script>
+
+</body>
+</html>
